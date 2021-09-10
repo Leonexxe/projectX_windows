@@ -53,7 +53,7 @@ build Experimental: phony CMakeFiles/Experimental
 #############################################
 # Order-only phony target for projectX
 
-build cmake_object_order_depends_target_projectX: phony || CMakeFiles/projectX.dir
+build cmake_object_order_depends_target_projectX: phony || myCustomTarget
 
 build CMakeFiles/projectX.dir/main.cpp.obj: CXX_COMPILER__projectX_Debug ../main.cpp || cmake_object_order_depends_target_projectX
   DEP_FILE = CMakeFiles\projectX.dir\main.cpp.obj.d
@@ -71,7 +71,7 @@ build CMakeFiles/projectX.dir/main.cpp.obj: CXX_COMPILER__projectX_Debug ../main
 #############################################
 # Link the executable projectX.exe
 
-build projectX.exe: CXX_EXECUTABLE_LINKER__projectX_Debug CMakeFiles/projectX.dir/main.cpp.obj
+build projectX.exe: CXX_EXECUTABLE_LINKER__projectX_Debug CMakeFiles/projectX.dir/main.cpp.obj || myCustomTarget
   FLAGS = -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd
   LINK_FLAGS = -Xlinker /subsystem:console
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames
@@ -250,6 +250,12 @@ build ContinuousTest: phony CMakeFiles/ContinuousTest
 # Utility command for ContinuousCoverage
 
 build ContinuousCoverage: phony CMakeFiles/ContinuousCoverage
+
+
+#############################################
+# Utility command for myCustomTarget
+
+build myCustomTarget: phony CMakeFiles/myCustomTarget
 
 
 #############################################
@@ -522,6 +528,13 @@ build CMakeFiles/ContinuousTest: CUSTOM_COMMAND
 build CMakeFiles/ContinuousCoverage: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build && "C:\Program Files\CMake\bin\ctest.exe" -D ContinuousCoverage"
   pool = console
+
+
+#############################################
+# Custom command for CMakeFiles\myCustomTarget
+
+build CMakeFiles/myCustomTarget: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build && libcopy"
 
 # =============================================================================
 # Target aliases.

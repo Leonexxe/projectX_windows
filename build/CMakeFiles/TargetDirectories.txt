@@ -28,6 +28,7 @@ C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFil
 C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/ContinuousBuild.dir
 C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/ContinuousTest.dir
 C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/ContinuousCoverage.dir
+C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/myCustomTarget.dir
 C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/package.dir
 C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/test.dir
 C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/edit_cache.dir
