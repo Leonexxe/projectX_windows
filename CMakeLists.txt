@@ -4,7 +4,14 @@ project(PX_WIN VERSION 0.1.0)
 include(CTest)
 enable_testing()
 
+#wx widgets
+add_subdirectory(libs/wxWidgets)
+
+#projectX
 add_executable(projectX main.cpp)
+
+#wx widgets
+target_link_libraries(projectX wx::net wx::core wx::base)
 
 add_custom_target(
     myCustomTarget
