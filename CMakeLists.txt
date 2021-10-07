@@ -10,23 +10,19 @@ enable_testing()
 add_executable(projectX main.cpp)
 
 #
-#MSVC
+#c++17
 #
-if(MSVC)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /std:c++17")
-endif(MSVC)
-IF (WIN32)
-    SET_TARGET_PROPERTIES (projectX PROPERTIES LINK_FLAGS_DEBUG "/SUBSYSTEM:windows")
-    SET_TARGET_PROPERTIES (projectX PROPERTIES LINK_FLAGS_RELEASE "/SUBSYSTEM:windows")
-    SET_TARGET_PROPERTIES (projectX PROPERTIES LINK_FLAGS_MINSIZEREL "/SUBSYSTEM:windows")
-    SET_TARGET_PROPERTIES (projectX PROPERTIES LINK_FLAGS_RELWITHDEBINFO "/SUBSYSTEM:windows")
-ENDIF (WIN32)
-
-# 
-# wx widgets
-# 
-add_subdirectory(libs/wxWidgets)
-target_link_libraries(projectX wx::net wx::core wx::base)
+if (CMAKE_CXX_COMPILER_ID STREQUAL "Clang")
+  # using Clang
+  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
+elseif (CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
+  # using GCC
+elseif (CMAKE_CXX_COMPILER_ID STREQUAL "Intel")
+  # using Intel C++
+elseif (CMAKE_CXX_COMPILER_ID STREQUAL "MSVC")
+  # using Visual Studio C++
+  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /std:c++17")
+endif()
 
 #
 #copy projectX library to include directory

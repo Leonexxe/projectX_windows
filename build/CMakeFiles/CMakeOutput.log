@@ -1,902 +1,175 @@
 The system is: Windows - 10.0.19043 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler:  
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/Llvm/bin/clang.exe 
 Build flags: 
-Id flags:  
+Id flags: -c 
 
 The output was:
 0
-Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-Build started 11/09/2021 06:29:20.
-Project "C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\3.20.3\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
-PrepareForBuild:
-  Creating directory "Debug\".
-  Creating directory "Debug\CompilerIdC.tlog\".
-InitializeBuildStatus:
-  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\HostX64\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W0 /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
-  CMakeCCompilerId.c
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\HostX64\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
-  CompilerIdC.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\3.20.3\CompilerIdC\CompilerIdC.exe
-PostBuildEvent:
-  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
-  :VCEnd
-  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x86\cl.exe
-FinalizeBuildStatus:
-  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
-  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
-Done Building Project "C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\3.20.3\CompilerIdC\CompilerIdC.vcxproj" (default targets).
-
-Build succeeded.
-    0 Warning(s)
-    0 Error(s)
-
-Time Elapsed 00:00:04.21
 
 
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
 
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
-
-The C compiler identification is MSVC, found in "C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/3.20.3/CompilerIdC/CompilerIdC.exe"
+The C compiler identification is Clang, found in "C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/3.20.3/CompilerIdC/CMakeCCompilerId.o"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler:  
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/Llvm/bin/clang.exe 
 Build flags: 
-Id flags:  
+Id flags: -c 
 
 The output was:
 0
-Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-Build started 11/09/2021 06:29:30.
-Project "C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\3.20.3\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
-PrepareForBuild:
-  Creating directory "Debug\".
-  Creating directory "Debug\CompilerIdCXX.tlog\".
-InitializeBuildStatus:
-  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\HostX64\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W0 /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
-  CMakeCXXCompilerId.cpp
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\HostX64\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
-  CompilerIdCXX.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\3.20.3\CompilerIdCXX\CompilerIdCXX.exe
-PostBuildEvent:
-  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
-  :VCEnd
-  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x86\cl.exe
-FinalizeBuildStatus:
-  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
-  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
-Done Building Project "C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\3.20.3\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
-
-Build succeeded.
-    0 Warning(s)
-    0 Error(s)
-
-Time Elapsed 00:00:06.34
 
 
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
 
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
-
-The CXX compiler identification is MSVC, found in "C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/3.20.3/CompilerIdCXX/CompilerIdCXX.exe"
+The CXX compiler identification is Clang, found in "C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/3.20.3/CompilerIdCXX/CMakeCXXCompilerId.o"
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_26c68.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  CMakeCCompilerABI.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_26c68.dir\Debug\\" /Fd"cmTC_26c68.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c"
-  cmTC_26c68.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_26c68.exe
+Run Build Command(s):C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_b99bc && [1/2] Building C object CMakeFiles/cmTC_b99bc.dir/CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_b99bc.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_0bc26.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  CMakeCXXCompilerABI.cpp
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0bc26.dir\Debug\\" /Fd"cmTC_0bc26.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp"
-  cmTC_0bc26.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_0bc26.exe
+Run Build Command(s):C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_8acb9 && [1/2] Building CXX object CMakeFiles/cmTC_8acb9.dir/CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_8acb9.exe
 
 
 
-Performing C SOURCE FILE Test HAVE_WINHTTP_H succeeded with the following output:
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_53f40.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  src.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_WINHTTP_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_53f40.dir\Debug\\" /Fd"cmTC_53f40.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\src.c
-  cmTC_53f40.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_53f40.exe
+Run Build Command(s):C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_39655 && [1/2] Building CXX object CMakeFiles/cmTC_39655.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_39655.exe
 
 
-Source file was:
-#include <windows.h>
-                                 #include <winhttp.h>
-                                 int main(){return 0;}
-Determining if the include file d2d1.h exists passed with the following output:
+
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_a0327.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  CheckIncludeFile.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a0327.dir\Debug\\" /Fd"cmTC_a0327.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
-  cmTC_a0327.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_a0327.exe
-
-
-
-Determining if files stdlib.h;stdarg.h;string.h;float.h exist passed with the following output:
-Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_64c8e.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  STDC_HEADERS.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_64c8e.dir\Debug\\" /Fd"cmTC_64c8e.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CheckIncludeFiles\STDC_HEADERS.c
-  cmTC_64c8e.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_64c8e.exe
-
-
-
-Performing C++ SOURCE FILE Test HAVE_STD_STRING_COMPARE succeeded with the following output:
-Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_de33c.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  src.cxx
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_STD_STRING_COMPARE /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_de33c.dir\Debug\\" /Fd"cmTC_de33c.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TP /analyze- /errorReport:queue C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\src.cxx
-C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\src.cxx(7,16): warning C4834: discarding return value of function with 'nodiscard' attribute [C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\cmTC_de33c.vcxproj]
-C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\src.cxx(8,16): warning C4834: discarding return value of function with 'nodiscard' attribute [C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\cmTC_de33c.vcxproj]
-C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\src.cxx(9,16): warning C4834: discarding return value of function with 'nodiscard' attribute [C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\cmTC_de33c.vcxproj]
-C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\src.cxx(10,16): warning C4834: discarding return value of function with 'nodiscard' attribute [C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\cmTC_de33c.vcxproj]
-C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\src.cxx(11,16): warning C4834: discarding return value of function with 'nodiscard' attribute [C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\cmTC_de33c.vcxproj]
-C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\src.cxx(12,16): warning C4834: discarding return value of function with 'nodiscard' attribute [C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\cmTC_de33c.vcxproj]
-  cmTC_de33c.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_de33c.exe
-
-
-Source file was:
-#include <string>
-
-
-int main(int argc, char* argv[]) {
- 
-    std::string foo, bar;
-    foo.compare(bar);
-    foo.compare(1, 1, bar);
-    foo.compare(1, 1, bar, 1, 1);
-    foo.compare("");
-    foo.compare(1, 1, "");
-    foo.compare(1, 1, "", 2);
-return 0; }
-Performing C++ SOURCE FILE Test HAVE_STD_WSTRING succeeded with the following output:
-Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_b345d.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  src.cxx
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_STD_WSTRING /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b345d.dir\Debug\\" /Fd"cmTC_b345d.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TP /analyze- /errorReport:queue C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\src.cxx
-  cmTC_b345d.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_b345d.exe
-
-
-Source file was:
-#include <string>
-
-
-int main(int argc, char* argv[]) {
- std::wstring s;
-return 0; }
-Performing C++ SOURCE FILE Test HAVE_STD_UNORDERED_MAP succeeded with the following output:
-Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_e6894.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  src.cxx
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_STD_UNORDERED_MAP /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e6894.dir\Debug\\" /Fd"cmTC_e6894.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TP /analyze- /errorReport:queue C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\src.cxx
-  cmTC_e6894.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_e6894.exe
-
-
-Source file was:
-#include <unordered_map>
-#include <unordered_set>
-
-
-int main(int argc, char* argv[]) {
- 
-    std::unordered_map<double*, char*> test1;
-    std::unordered_set<char*> test2;
-return 0; }
-Performing C++ SOURCE FILE Test wxWCHAR_T_IS_REAL_TYPE succeeded with the following output:
-Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_0d467.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D wxWCHAR_T_IS_REAL_TYPE /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0d467.dir\Debug\\" /Fd"cmTC_0d467.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TP /analyze- /errorReport:queue C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\src.cxx
-  src.cxx
-  cmTC_0d467.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_0d467.exe
-
-
-Source file was:
-#include <wchar.h>
-
-
-int main(int argc, char* argv[]) {
- return 0; }
-
-            struct Foo { void foo(wchar_t);
-                         void foo(unsigned short);
-                         void foo(unsigned int);
-                         void foo(unsigned long); };
-
-            int bar() {
-return 0; }
-Determining if the wcsftime exist passed with the following output:
-Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_7a1d9.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  CheckSymbolExists.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7a1d9.dir\Debug\\" /Fd"cmTC_7a1d9.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-  cmTC_7a1d9.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_7a1d9.exe
-
-
-File C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
-/* */
-#include <wchar.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef wcsftime
-  return ((int*)(&wcsftime))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
-Determining if the wprintf exist passed with the following output:
-Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_4382a.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  CheckSymbolExists.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4382a.dir\Debug\\" /Fd"cmTC_4382a.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-  cmTC_4382a.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_4382a.exe
-
-
-File C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
-/* */
-#include <wchar.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef wprintf
-  return ((int*)(&wprintf))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
-Determining if the fputws exist passed with the following output:
-Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_9b666.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  CheckSymbolExists.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9b666.dir\Debug\\" /Fd"cmTC_9b666.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-  cmTC_9b666.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_9b666.exe
-
-
-File C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
-/* */
-#include <wchar.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef fputws
-  return ((int*)(&fputws))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
-Determining if the vswprintf exist passed with the following output:
-Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_59273.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  CheckSymbolExists.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_59273.dir\Debug\\" /Fd"cmTC_59273.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-  cmTC_59273.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_59273.exe
-
-
-File C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
-/* */
-#include <wchar.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef vswprintf
-  return ((int*)(&vswprintf))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
-Determining if the vswscanf exist passed with the following output:
-Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_30139.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_30139.dir\Debug\\" /Fd"cmTC_30139.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-  CheckSymbolExists.c
-  cmTC_30139.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_30139.exe
-
-
-File C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
-/* */
-#include <wchar.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef vswscanf
-  return ((int*)(&vswscanf))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
-Determining if the wcsdup exist passed with the following output:
-Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_7f6a6.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  CheckSymbolExists.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7f6a6.dir\Debug\\" /Fd"cmTC_7f6a6.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8,19): warning C4996: 'wcsdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _wcsdup. See online help for details. [C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\cmTC_7f6a6.vcxproj]
-  cmTC_7f6a6.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_7f6a6.exe
-
-
-File C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
-/* */
-#include <wchar.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef wcsdup
-  return ((int*)(&wcsdup))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
-Determining if the wcsnlen exist passed with the following output:
-Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_37f23.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_37f23.dir\Debug\\" /Fd"cmTC_37f23.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-  CheckSymbolExists.c
-  cmTC_37f23.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_37f23.exe
-
-
-File C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
-/* */
-#include <wchar.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef wcsnlen
-  return ((int*)(&wcsnlen))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
-Determining if the wcstoull exist passed with the following output:
-Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_ae370.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  CheckSymbolExists.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ae370.dir\Debug\\" /Fd"cmTC_ae370.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-  cmTC_ae370.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_ae370.exe
-
-
-File C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
-/* */
-#include <wchar.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef wcstoull
-  return ((int*)(&wcstoull))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
-Determining if the wcslen exist passed with the following output:
-Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_a7fb6.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  CheckSymbolExists.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a7fb6.dir\Debug\\" /Fd"cmTC_a7fb6.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-  cmTC_a7fb6.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_a7fb6.exe
-
-
-File C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
-/* */
-#include <wchar.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef wcslen
-  return ((int*)(&wcslen))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
-Determining if the function strnlen exists passed with the following output:
-Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_0194f.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  CheckFunctionExists.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strnlen /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0194f.dir\Debug\\" /Fd"cmTC_0194f.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
-  cmTC_0194f.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_0194f.exe
-
-
-
-Determining if the function strtoull exists passed with the following output:
-Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_8da1e.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  CheckFunctionExists.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoull /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8da1e.dir\Debug\\" /Fd"cmTC_8da1e.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
-  cmTC_8da1e.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_8da1e.exe
-
-
-
-Determining if the vsscanf exist passed with the following output:
-Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_31cb2.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  CheckSymbolExists.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_31cb2.dir\Debug\\" /Fd"cmTC_31cb2.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-  cmTC_31cb2.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_31cb2.exe
-
-
-File C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
-/* */
-#include <stdio.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef vsscanf
-  return ((int*)(&vsscanf))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
-Determining if the round exist passed with the following output:
-Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_cf7e0.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  CheckSymbolExists.cxx
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cf7e0.dir\Debug\\" /Fd"cmTC_cf7e0.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TP /analyze- /errorReport:queue C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx
-  cmTC_cf7e0.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_cf7e0.exe
-
-
-File C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
-/* */
-#include <math.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef round
-  return ((int*)(&round))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
-Determining if the include file type_traits exists passed with the following output:
-Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_87d7b.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_87d7b.dir\Debug\\" /Fd"cmTC_87d7b.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TP /analyze- /errorReport:queue C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
-  CheckIncludeFile.cxx
-  cmTC_87d7b.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_87d7b.exe
-
-
-
-Determining if the include file fcntl.h exists passed with the following output:
-Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_cb346.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  CheckIncludeFile.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cb346.dir\Debug\\" /Fd"cmTC_cb346.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
-  cmTC_cb346.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_cb346.exe
-
-
-
-Determining if the include file wchar.h exists passed with the following output:
-Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_c5aa5.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  CheckIncludeFile.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c5aa5.dir\Debug\\" /Fd"cmTC_c5aa5.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
-  cmTC_c5aa5.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_c5aa5.exe
-
-
-
-Performing C++ SOURCE FILE Test wxTEST_TZ__timezone succeeded with the following output:
-Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_1e9d7.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D wxTEST_TZ__timezone /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1e9d7.dir\Debug\\" /Fd"cmTC_1e9d7.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TP /analyze- /errorReport:queue C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\src.cxx
-  src.cxx
-C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\src.cxx(7,18): warning C4996: '__timezone': This function or variable may be unsafe. Consider using _get_timezone instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\cmTC_1e9d7.vcxproj]
-  cmTC_1e9d7.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_1e9d7.exe
-
-
-Source file was:
-#include <time.h>
-
-
-int main(int argc, char* argv[]) {
- 
-            int tz;
-            tz = _timezone;
-return 0; }
-Determining if the include file sys/types.h exists passed with the following output:
-Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_6fe69.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  CheckIncludeFile.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6fe69.dir\Debug\\" /Fd"cmTC_6fe69.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
-  cmTC_6fe69.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_6fe69.exe
-
-
-
-Determining if the include file stdint.h exists passed with the following output:
-Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_a7e75.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  CheckIncludeFile.c
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a7e75.dir\Debug\\" /Fd"cmTC_a7e75.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
-  cmTC_a7e75.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_a7e75.exe
-
-
-
-Determining if the include file stddef.h exists passed with the following output:
-Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_26642.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  CheckIncludeFile.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_26642.dir\Debug\\" /Fd"cmTC_26642.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
-  cmTC_26642.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_26642.exe
-
-
-
-Determining size of size_t passed with the following output:
-Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_6a14b.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  SIZEOF_SIZE_T.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6a14b.dir\Debug\\" /Fd"cmTC_6a14b.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c
-  cmTC_6a14b.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_6a14b.exe
-
-
-
-Determining size of wchar_t passed with the following output:
-Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_04c4d.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  SIZEOF_WCHAR_T.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_04c4d.dir\Debug\\" /Fd"cmTC_04c4d.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CheckTypeSize\SIZEOF_WCHAR_T.c
-  cmTC_04c4d.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_04c4d.exe
-
-
-
-Determining size of int passed with the following output:
-Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_cd2ba.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  SIZEOF_INT.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cd2ba.dir\Debug\\" /Fd"cmTC_cd2ba.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CheckTypeSize\SIZEOF_INT.c
-  cmTC_cd2ba.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_cd2ba.exe
-
-
-
-Determining size of long passed with the following output:
-Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_6b2b7.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6b2b7.dir\Debug\\" /Fd"cmTC_6b2b7.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c
-  SIZEOF_LONG.c
-  cmTC_6b2b7.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_6b2b7.exe
-
-
-
-Determining size of short passed with the following output:
-Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_8da6a.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8da6a.dir\Debug\\" /Fd"cmTC_8da6a.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c
-  SIZEOF_SHORT.c
-  cmTC_8da6a.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_8da6a.exe
-
-
-
-Determining size of long long passed with the following output:
-Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_709cd.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_709cd.dir\Debug\\" /Fd"cmTC_709cd.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /analyze- /errorReport:queue C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c
-  SIZEOF_LONG_LONG.c
-  cmTC_709cd.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_709cd.exe
-
-
-
-Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler:  
-Build flags: /DWIN32;/D_WINDOWS;/W3
-Id flags:  
-
-The output was:
-0
-Microsoft (R) Build Engine version 16.11.0+0538acc04 for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-Build started 11/09/2021 09:26:16.
-Project "C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\3.20.3\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
-PrepareForBuild:
-  Creating directory "Debug\".
-  Creating directory "Debug\CompilerIdC.tlog\".
-InitializeBuildStatus:
-  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W0 /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
-  CMakeCCompilerId.c
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
-  CompilerIdC.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\3.20.3\CompilerIdC\CompilerIdC.exe
-PostBuildEvent:
-  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
-  :VCEnd
-  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x86\cl.exe
-FinalizeBuildStatus:
-  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
-  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
-Done Building Project "C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\3.20.3\CompilerIdC\CompilerIdC.vcxproj" (default targets).
-
-Build succeeded.
-    0 Warning(s)
-    0 Error(s)
-
-Time Elapsed 00:00:05.84
-
-
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
-
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
-
-The C compiler identification is MSVC, found in "C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/3.20.3/CompilerIdC/CompilerIdC.exe"
-
-Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler:  
-Build flags: /DWIN32;/D_WINDOWS;/W3;/GR;/EHsc
-Id flags:  
-
-The output was:
-0
-Microsoft (R) Build Engine version 16.11.0+0538acc04 for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-Build started 11/09/2021 09:26:23.
-Project "C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\3.20.3\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
-PrepareForBuild:
-  Creating directory "Debug\".
-  Creating directory "Debug\CompilerIdCXX.tlog\".
-InitializeBuildStatus:
-  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W0 /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
-  CMakeCXXCompilerId.cpp
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
-  CompilerIdCXX.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\3.20.3\CompilerIdCXX\CompilerIdCXX.exe
-PostBuildEvent:
-  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
-  :VCEnd
-  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x86\cl.exe
-FinalizeBuildStatus:
-  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
-  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
-Done Building Project "C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\3.20.3\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
-
-Build succeeded.
-    0 Warning(s)
-    0 Error(s)
-
-Time Elapsed 00:00:02.61
-
-
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
-
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
-
-The CXX compiler identification is MSVC, found in "C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/3.20.3/CompilerIdCXX/CompilerIdCXX.exe"
-
-Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_a4552.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.0+0538acc04 for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30133 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  CMakeCCompilerABI.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a4552.dir\Debug\\" /Fd"cmTC_a4552.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c"
-  cmTC_a4552.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_a4552.exe
-
-
-
-Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Administrator/OneDrive/Dokumente/GitHub/projectX_windows/build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_fcdfa.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.0+0538acc04 for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30133 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  CMakeCXXCompilerABI.cpp
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fcdfa.dir\Debug\\" /Fd"cmTC_fcdfa.dir\Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp"
-  cmTC_fcdfa.vcxproj -> C:\Users\Administrator\OneDrive\Dokumente\GitHub\projectX_windows\build\CMakeFiles\CMakeTmp\Debug\cmTC_fcdfa.exe
-
-
-
+Run Build Command(s):C:/PROGRA~2/MICROS~2/2019/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_25d4f && [1/2] Building CXX object CMakeFiles/cmTC_25d4f.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_25d4f.exe
+
+
+
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_variable_templates

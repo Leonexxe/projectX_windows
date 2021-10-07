@@ -9,6 +9,7 @@
 # You may not remove or alter this copyright header.                                                         #
 ############################################################################################################*/
 #pragma once
+#ifndef NO_MOD_SERVER
 #define PX_MOD_SERVER_BUF_SIZE 4096
 #include "main.h"
 std::string SEND_TO_CS = ".";
@@ -30,14 +31,26 @@ std::string MOD_SERVER_INTERPRETER(std::string msg,std::string IP, px::server<PX
     }
     if(msg == "001")
     {
+        APP_MAIN->LOG(px::InfoPrefix() + "response: OK\n");
         return "OK";
     }
-    if(msg.substr(0,3) == "ini")
+    std::list<std::string> segments = strSplit(msg,",");
+    if(segments.size() > 1)
     {
-        std::list<std::string> segments = strSplit(msg,",");
+        APP_MAIN->LOG("segments: {");
+        for(std::string I : segments)
+            APP_MAIN->LOG(I + ",");
+        APP_MAIN->LOG("}\n");
+    }
+    if(segments.size() < 2)
+        return "0x0002";
+    if(px::tools::lists::getElementByIndex(&segments,-1) == "ini")
+    {
         std::string RETURN = APP_MAIN->getINI(px::tools::lists::getElementByIndex(&segments,0),px::tools::lists::getElementByIndex(&segments,1));
         APP_MAIN->LOG(px::InfoPrefix() + "response: "+RETURN+"\n");
         return RETURN;
     }
+    APP_MAIN->LOG(px::InfoPrefix() + "response: 0x0002\n");
     return "0x0002";
 }
+#endif
